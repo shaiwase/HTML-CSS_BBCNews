@@ -122,20 +122,17 @@
             font-size: 40px;
             font-weight: normal;
             padding-top: 10px;
-            padding-left: 171px; 
-             
+            padding-left: 171px;           
         }
         
         #local-news {
-            
+                        
             width;25px;
             height: 25px;
-            float: right;
-            
-                         
+            float: right;           
         }
         
-        #local-news-a {
+        #local-news a {
             
             color: white;
             text-decoration: none;   
@@ -144,18 +141,58 @@
             top:-20px;
         }
         
-        #local-news-a:hover {
+        #local-news a:hover {
+            
+            text-decoration: underline;            
+        }        
+                
+        #menu-bar-2-container {
+            
+            background-color: #A91717;
+            width: 100%;         
+        }
+        
+        #menu-bar-2 {
+            
+            width: 100%;           
+            margin: 0 160px;
+            height: 40px;                
+        }
+        
+        #menu-bar-2 a {
+            
+            color: white;
+            text-decoration: none;          
+            padding: 0 10px;
+            border-right: 1px solid #BB4545;     
+            font-size: 14px;
+            position: relative;
+            top: 10px;                      
+        }
+        
+        #menu-bar-2 a:hover {
             
             text-decoration: underline;
+        }
+        
+        .no-border {
+                
+            border:none !important;                
+        }
+        
+        #down-arrow {
+            
+          height: 10px;
+          position: relative;
+          top:10px;
             
         }
+            
   
     
     </style>
     
-    <body>
-        
-   
+    <body>          
         
         <div id="topbar">
             
@@ -234,14 +271,40 @@
                  
                  <div id="local-news">
                      
-                   <a id=local-news-a href="">Find local news</a>  
+                   <a  href="">Find local news</a>  
                  
-                 </div>
+                 </div>            
             
+            </div>
             
+             <div class="clear"></div>
+            
+            <div id="menu-bar-2-container">
+            
+                <div id="menu-bar-2">
+                
+                    <a  href="">Home</a>
+                    <a  href="">UK</a>
+                    <a  href="">World</a>
+                    <a  href="">Business</a>
+                    <a  href="">Politic</a>
+                    <a  href="">Tech</a>
+                    <a  href="">Science</a>
+                    <a  href="">Health</a>
+                    <a  href="">Education</a>
+                    <a  href="">Entertainment & Arts</a>
+                    <a  href="">Video & Audio</a>
+                    <a  href="" class="no-border">More</a>
+                    <img id="down-arrow" src="images/down-arrow.png">
+                
+                </div>
             </div>
         
         </div>
+        
+        <div class="clear"></div>
+        
+        
  
     
     
