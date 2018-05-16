@@ -80,7 +80,7 @@
             font-size: 90%;
             padding: 13px 15px 0px 15px;
             height: 27px;
-            float:left;           
+                  
         }
         
         #topbar-textbox {
@@ -116,13 +116,15 @@
             margin: 0;             
         }
         
-        h2 {
+        h1 {
+            
+            padding: 0;
             margin: 0;
             color:white;
             font-size: 40px;
             font-weight: normal;
             padding-top: 10px;
-            padding-left: 171px;           
+            padding-left: 170px;                                
         }
         
         #local-news {
@@ -187,10 +189,143 @@
           top:10px;
             
         }
+        
+        #page-container {
             
-  
-    
-    </style>
+            width: 100%;
+            margin: 0 auto;
+        }
+        
+        h2 {
+            
+            font-weight: normal;
+            margin-top: 40px;
+            font-size: 20px;                 
+            border-bottom: 2px solid #A91717;
+            width: 100px;
+            position: relative;
+            left: 165px;             
+        }        
+        
+        h3 a {
+            
+            text-decoration: none;
+            color: black;
+            font-size: 25px;
+            position: relative;
+            left: 170px;            
+        }
+        
+        h3 a:hover {
+            
+            color: #1167a8;
+        }
+        
+        #article-container {
+            
+            float: left;
+            width: 650px;
+            border-right: 1px solid #CCCCCC;
+            padding-right: 130px;
+            
+        }
+        #article-summary {
+            
+            color: #5a5a5a;
+            word-spacing: 5px;
+            width: 260px;
+            float: left;
+            position: relative;
+            left: 170px;             
+         }
+                                  
+         .clock {
+                       
+            position: relative;
+            left: -10px;
+            top: -2px;
+            float: left;           
+        }                    
+           
+        #article-picture {
+          
+            position: absolute;
+            left: 270px;
+            top:0;        
+        }
+        
+        #topic-link{
+            
+            color: #A91717;
+            text-decoration: none;  
+            border-left: 1px solid #CCCCCC;
+            padding: 3px;
+        }
+        
+        #article-summary a:hover {
+            
+            color: #1167a8;
+        } 
+        
+        #article-hr {
+            
+            width: 50px;
+            border-color: #A91717;            
+        }
+        
+        .article-link {
+            
+            color: black;
+            text-decoration: none
+             
+        }
+            
+        .article-link a:hover {
+            
+             color: #1167a8;            
+        }
+        
+        #watch-listen {
+                        
+            margin-left: 30px;
+            width: 350px;
+            float: right;                   
+        }
+        
+        h4 {
+            
+            margin-left: -430px;
+            font-size: 25px;
+            font-weight: normal;            
+        }
+        
+        .article-side-image {
+                         
+            margin-left: -430px;            
+        }
+        
+        .watch-listen-link {
+            
+            text-decoration: none;
+            font-weight: bold;
+            color: black;              
+        }
+        
+        .watch-listen-link:hover {
+            
+            color: #1167a8;
+        }
+        
+        .side-article {
+            
+           float: right; 
+           width: 250px;
+           position: relative;           
+           right: 400px;           
+        }
+        
+      
+  </style>
     
     <body>          
         
@@ -267,7 +402,7 @@
             
              <div id="menu-bar">
             
-             <h2>NEWS</h2> 
+             <h1>NEWS</h1> 
                  
                  <div id="local-news">
                      
@@ -298,11 +433,126 @@
                     <img id="down-arrow" src="images/down-arrow.png">
                 
                 </div>
+                
             </div>
         
         </div>
         
-        <div class="clear"></div>
+         <div class="clear"></div>
+        
+        <div id="page-container">              
+        
+            <div id="main-article">
+                
+                  <h2>Technology</h2> 
+                
+                <div id="article-container">
+                
+                    <h3> <a href="">Asda bug exposed payment details</a></h3>
+
+                    <div id="article-summary">
+
+                      <p>Security vulnerabilities that put customers at risk have affected Asda's website for a couple of years, a security expert has revealed.</p>
+
+                      <p><img class="clock" src="images/clock.PNG"><span>19 January 2016 </span><a id="topic-link" href="">Technology</a></p> 
+                        
+                      
+                      <hr id="article-hr" align="left">
+                      
+                      <p> <a class="article-link" href="">Surveillance firm hit in hack attack</a></p>
+                      <p> <a class="article-link" href="">eBay flaw has existed for months</a></p>                
+                      <a id="article-picture" href=""><img src="images/asda.gif"></a>                               
+                    </div>         
+                </div>  
+            </div>
+            
+     
+            
+            <div id="watch-listen">
+                
+                <h4>Watch/Listen</h4>
+                
+                <img class="article-side-image" src="images/watch1.PNG"> 
+                
+                <div class="side-article">
+                
+                    <a class="watch-listen-link" href="">UK science chief backs blockchains</a>
+
+                    <p><img class="clock" src="images/clock.PNG"><span>19 January 2016 </span></p>           
+                </div>
+                
+                <div class="clear"></div>
+                
+                <img class="article-side-image" src="images/watch2.PNG">
+                
+                <div class="side-article">
+                    
+                <a class="watch-listen-link" href="">Drone register gives 'accountability'</a>
+
+                    <p><img class="clock" src="images/clock.PNG"><span>19 January 2016 </span> <a id="topic-link" href="">Technology</a></p>      
+                    
+                </div>
+                
+                <div class="clear"></div>
+                
+                <img class="article-side-image" src="images/watch3.PNG">
+                
+                <div class="side-article">
+                    
+                <a class="watch-listen-link" href="">SpaceX rocket explodes during landing</a>
+
+                    <p><img class="clock" src="images/clock.PNG"><span>19 January 2016 </span> <a id="topic-link" href="">Science & Environment</a></p>      
+                    
+                </div>
+                
+                <div class="clear"></div>
+                
+                <img class="article-side-image" src="images/watch4.PNG">
+                
+                <div class="side-article">
+                    
+                <a class="watch-listen-link" href="">What is a VPN service?</a>
+
+                    <p><img class="clock" src="images/clock.PNG"><span>19 January 2016 </span> <a id="topic-link" href="">Technology</a></p>      
+                    
+                </div>
+                
+                 <div class="clear"></div>
+                
+                <img class="article-side-image" src="images/watch5.PNG">
+                
+                <div class="side-article">
+                    
+                <a class="watch-listen-link" href="">Charge your phone with a hand crank</a>
+
+                    <p><img class="clock" src="images/clock.PNG"><span>19 January 2016 </span> <a id="topic-link" href="">Technology</a></p>      
+                    
+                </div>
+                
+                <div class="clear"></div>
+                
+                <img class="article-side-image" src="images/watch6.PNG">
+                
+                <div class="side-article">
+                    
+                <a class="watch-listen-link" href="">Drones break Guinness World Record</a>
+
+                    <p><img class="clock" src="images/clock.PNG"><span>19 January 2016 </span> <a id="topic-link" href="">Technology</a></p>      
+                    
+                </div>
+                
+                
+                
+   
+                
+                
+            
+            
+            </div>
+        
+        </div>
+        
+
         
         
  
